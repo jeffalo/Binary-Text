@@ -1,0 +1,130 @@
+<!DOCTYPE HTML>
+<!--
+	Solid State by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Binary-Text</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<h1><a href="index.html">Binary-Text</a></h1>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<div class="inner">
+							<h2>Menu</h2>
+							<ul class="links">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="about.html">About</a></li>
+							</ul>
+							<a href="#" class="close">Close</a>
+						</div>
+					</nav>
+
+				<!-- Banner -->
+					<section id="banner">
+						<div class="inner">
+							<div class="logo"><span class="icon fa-file"></span></div>
+							<h2>Binary-Text</h2>
+							<p>A binary to text converter by <a href="https://github.com/JeffaloBob">Jeffalo</a></p>
+						</div>
+					</section>
+
+				<!-- Wrapper -->
+					<section id="wrapper">
+
+						<!-- One -->
+							<section id="one" class="wrapper spotlight style1">
+								<div class="inner">
+									<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
+									<div class="content">
+										<h2 class="major">Binary to text</h2>
+										<p>Convert your binary here!</p>
+                    <textarea name="demo-message" id="b-t" rows="6">01001000 01100101 01101100 01101100 01101111 00101100 00100000 01110111 01101111 01110010 01101100 01100100 00100001</textarea>
+                    <br>
+										<a href="javascript:alert(textbox1.value
+  .split(' ')
+  .map(binary => parseInt(binary, 2))
+  .map(n => String.fromCharCode(n))
+  .join(''))" class="button secondary fit">Convert</a>
+									</div>
+								</div>
+							</section>
+              <script>var textbox1 = document.getElementById('b-t');</script>
+
+						<!-- Two -->
+            <section id="two" class="wrapper alt spotlight style2">
+              <div class="inner">
+                <a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
+                <div class="content">
+                  <h2 class="major">Text to binary</h2>
+                  <p>Convert your text here!</p>
+                  <textarea name="demo-message" id="t-b" rows="6">Hello, world!</textarea>
+                  <br>
+                  <a href="javascript:alert(textbox2.value
+        .split('')
+        .map((char) => '00'.concat(char.charCodeAt(0).toString(2)).slice(-8))
+        .join(' '))" class="button secondary fit">Convert</a>
+                </div>
+              </div>
+            </section>
+            <script>var textbox2 = document.getElementById('t-b');</script>
+
+						<!-- Three -->
+							<section id="three" class="wrapper spotlight style3">
+								<div class="inner">
+									<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+									<div class="content">
+										<h2 class="major">What's binary?</h2>
+										<p>You may of seen binary in an example of what coding is like, actually that's quite false in today's times.</p>
+										<a href="about.html" class="special">Learn more</a>
+									</div>
+								</div>
+							</section>
+
+						<!-- Four -->
+							<section id="four" class="wrapper alt style1">
+								<div class="inner">
+									<h2 class="major">What's coming next?</h2>
+									<p>I will be adding a new easier way to show the text, stay tuned!</p>
+
+
+					</section>
+
+          <!-- Footer -->
+  					<section id="footer">
+  						<div class="inner">
+  							<ul class="copyright">
+  								<li>Created by <a href="https://github.com/JeffaloBob">Jeffalo</a></li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+  							</ul>
+  						</div>
+  					</section>
+
+  			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
